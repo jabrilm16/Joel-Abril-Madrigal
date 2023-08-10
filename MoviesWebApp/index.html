@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Website Icon" type="png" href="images/MovieFolder.png">
+    <title>
+        JoelCinema
+    </title>
+
+    <!--Here we have the font that we will use(GOOGLE FONTS)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;0,700;0,800;0,900;1,100;1,500;1,600;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!--Carousel(OwlCarousel2-cdnjs.com/libraries/)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Icons(Boxicons)-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--CSS-->
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+
+    <!--NAV-->
+    <div class="nav-wrapper">
+        <div class="container">
+            <div class="nav">
+                <a href="#" class="logo">
+                    <i class='bx bx-movie-play bx-tada main-color'></i>Joel<span class="main-color">Cin</span>ema
+                </a>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Genre</a></li>
+                    <li><a href="#">Movies</a></li>
+                    <li><a href="#">Series</a></li>
+                    <li><a href="#">About</a></li>
+                    <li>
+                        <a href="#" class="btn btn-hover">
+                            <span>Sign in</span>
+                        </a>
+                    </li>
+                </ul>
+                <!-- MOBILE MENU TOGGLE -->
+                <div class="hamburger-menu" id="hamburger-menu">
+                    <div class="hamburger"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Hero-->
+    <div class="hero-section">
+        <!-- Hero Slide-->
+        <div class="hero-slide">
+            <div class="owl-carousel carousel-nav-center" id="hero-carousel">
+
+                <!-- SLIDE ITEM -->
+                <div class="hero-slide-item">
+                    <img src="./images/Oppenheimer.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="hero-slide-item-content">
+                        <div class="item-content-wraper">
+                            <div class="item-content-title top-down">
+                                Oppenheimer
+                            </div>
+                            <div class="movie-infos top-down delay-2">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>9.5</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>180 mins</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>HD</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>18+</span>
+                                </div>
+                            </div>
+                            <div class="item-content-description top-down delay-4">
+                                Película sobre el físico J. Robert Oppenheimer y su papel como desarrollador de la bomba
+                                atómica. Basada en el libro 'American Prometheus: The Triumph and Tragedy of J. Robert
+                                Oppenheimer' de Kai Bird y Martin J. Sherwin.
+                            </div>
+                            <div class="item-action top-down delay-6">
+                                <a href="Oppie.html" class="btn btn-hover">
+                                    <i class="bx bxs-right-arrow"></i>
+                                    <span>Watch now</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END SLIDE ITEM -->
+
+                <!-- SLIDE ITEM -->
+                <div class="hero-slide-item">
+                    <img src="./images/indianaJones.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="hero-slide-item-content">
+                        <div class="item-content-wraper">
+                            <div class="item-content-title top-down">
+                                Indiana Jones 5
+                            </div>
+                            <div class="movie-infos top-down delay-2">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>9.4</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>182 mins</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>HD</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>12+</span>
+                                </div>
+                            </div>
+                            <div class="item-content-description top-down delay-4">
+                                En 1969, un Indiana Jones envejecido y derrotado por la vida regresa a la acción para
+                                evitar que la hija de uno de sus amigos venda un artilugio que permite viajar en el
+                                tiempo a unos nazis que pretenden alterar el curso de la Segunda Guerra Mundial.
+                            </div>
+                            <div class="item-action top-down delay-6">
+                                <a href="indiana.html" class="btn btn-hover">
+                                    <i class="bx bxs-right-arrow"></i>
+                                    <span>Watch now</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END SLIDE ITEM -->
+
+                <!-- SLIDE ITEM -->
+                <div class="hero-slide-item">
+                    <img src="./images/Barbie.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="hero-slide-item-content">
+                        <div class="item-content-wraper">
+                            <div class="item-content-title top-down">
+                                Barbie
+                            </div>
+                            <div class="movie-infos top-down delay-2">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>9.4</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>114 mins</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>HD</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>12+</span>
+                                </div>
+                            </div>
+                            <div class="item-content-description top-down delay-4">
+                                Después de ser expulsada de Barbieland por no ser una muñeca de aspecto perfecto, Barbie
+                                parte hacia el mundo humano para encontrar la verdadera felicidad.
+                            </div>
+                            <div class="item-action top-down delay-6">
+                                <a href="Barbie.html" class="btn btn-hover">
+                                    <i class="bx bxs-right-arrow"></i>
+                                    <span>Watch now</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END SLIDE ITEM -->
+
+            </div>
+        </div>
+        <!-- End Hero Slide-->
+        
+        <!-- Top Movies Slide-->
+
+        <div class="top-movies-slide">
+            <div class="owl-carousel" id="top-movies-slide">
+
+                <!--Movie Item-->
+                <div class="movie-item">
+                    <img src="./images/series/Merry.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            One Piece
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.4</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>Anime</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>12+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--End Movie Item-->
+
+                <!--Movie Item-->
+                <div class="movie-item">
+                    <img src="./images/series/Baki.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Baki Hanma
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.4</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>Anime</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>12+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--End Movie Item-->
+
+                <!--Movie Item-->
+                <div class="movie-item">
+                    <img src="./images/series/Kimetsu.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Kimetsu no Yaiba
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.4</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>Anime</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>12+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--End Movie Item-->
+
+                <!--Movie Item-->
+                <div class="movie-item">
+                    <img src="./images/series/Hajime.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Hajime no Ippo
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.4</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>182 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>12+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--End Movie Item-->
+
+                <!--Movie Item-->
+                <div class="movie-item">
+                    <img src="./images/series/Chainsaw.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            ChanisawMan
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.4</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>182 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>12+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--End Movie Item-->
+
+                <!--Movie Item-->
+                <div class="movie-item">
+                    <img src="./images/series/jujutsukaisen_visual.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Jujutsu Kaisen
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.4</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>Anime</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>12+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--End Movie Item-->
+
+            </div>
+        </div>
+        
+        <!-- End Top Movies Slide-->
+    </div>
+    <!--End Hero-->
+
+    <!--Latest movies section-->
+    <div class="section">
+        <div class="container">
+            <div class="section-header">
+                Nolan's movies
+            </div>
+            <div class="movie-slide carousel-nav-center owl-carousel">
+
+                <!--Movie Item-->
+                <a href="#" class="movie-item">
+                    <img src="./images/movies/Interstellar.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Interstellar
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.4</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>180 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>18+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!--End Movie Item-->
+
+                <!--Movie Item-->
+                <a href="#" class="movie-item">
+                    <img src="./images/movies/Inception.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Inception
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.4</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>180 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>18+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!--End Movie Item-->
+
+                <!--Movie Item-->
+                <a href="#" class="movie-item">
+                    <img src="./images/movies/Oppie.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Oppenheimer
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.4</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>180 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>18+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!--End Movie Item-->
+
+                <!--Movie Item-->
+                <a href="#" class="movie-item">
+                    <img src="./images/movies/Dunkirk.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Dunkirk
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.4</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>180 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>18+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!--End Movie Item-->
+
+                <!--Movie Item-->
+                <a href="#" class="movie-item">
+                    <img src="./images/movies/Memento.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Memento
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.4</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>180 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>18+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!--End Movie Item-->
+
+                <!--Movie Item-->
+                <a href="#" class="movie-item">
+                    <img src="./images/movies/bat-man.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            The Dark Knight
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.4</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>180 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>18+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!--End Movie Item-->
+
+                <!--Movie Item-->
+                <a href="#" class="movie-item">
+                    <img src="./images/movies/Insomnia.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Insomnia
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.4</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>180 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>18+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!--End Movie Item-->
+            </div>
+        
+        </div>
+    </div>
+    <!--End Latest movies section-->
+
+    <!--Latest movies section-->
+    <div class="section">
+        <div class="container">
+            <div class="section-header">
+                A24 Films
+            </div>
+            <div class="movie-slide carousel-nav-center owl-carousel">
+
+                <!--Movie Item-->
+                <a href="#" class="movie-item">
+                    <img src="./images/movies/Midsommar.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Midsommar
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.4</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>180 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>18+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!--End Movie Item-->
+
+                <!--Movie Item-->
+                <a href="#" class="movie-item">
+                    <img src="./images/movies/Everything.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Everything Everywhere all at Once
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.4</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>180 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>18+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!--End Movie Item-->
+
+                <!--Movie Item-->
+                <a href="#" class="movie-item">
+                    <img src="./images/movies/Lady Bird.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Lady Bird
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.4</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>180 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>18+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!--End Movie Item-->
+
+                <!--Movie Item-->
+                <a href="#" class="movie-item">
+                    <img src="./images/movies/Lighthouse.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            The Lighthouse
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.4</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>180 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>18+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!--End Movie Item-->
+
+                <!--Movie Item-->
+                <a href="#" class="movie-item">
+                    <img src="./images/movies/UncutGems.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Uncut Gems
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.4</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>180 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>18+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!--End Movie Item-->
+
+                <!--Movie Item-->
+                <a href="#" class="movie-item">
+                    <img src="./images/movies/mid90s.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            mid90s
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.4</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>180 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>18+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!--End Movie Item-->
+
+                <!--Movie Item-->
+                <a href="#" class="movie-item">
+                    <img src="./images/movies/moonlight.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Moonlight
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.4</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>180 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>18+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!--End Movie Item-->
+            </div>
+        
+        </div>
+    </div>
+    <!--End Latest movies section-->
+
+ <!--Latest movies section-->
+ <div class="section">
+    <div class="container">
+        <div class="section-header">
+            Records Movies
+        </div>
+        <div class="movie-slide carousel-nav-center owl-carousel">
+
+            <!--Movie Item-->
+            <a href="#" class="movie-item">
+                <img src="./images/movies/exorcist.jpg" alt="">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+                        The Exorcist
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.4</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>180 mins</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>18+</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <!--End Movie Item-->
+
+            <!--Movie Item-->
+            <a href="#" class="movie-item">
+                <img src="./images/movies/Babriemovie.jpg" alt="">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+                        Barbie
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.4</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>180 mins</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>18+</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <!--End Movie Item-->
+
+            <!--Movie Item-->
+            <a href="#" class="movie-item">
+                <img src="./images/movies/JAWS.jpg" alt="">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+                        JAWS
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.4</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>180 mins</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>18+</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <!--End Movie Item-->
+
+            <!--Movie Item-->
+            <a href="#" class="movie-item">
+                <img src="./images/movies/Avengers.jpg" alt="">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+                        Avengers Endgame
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.4</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>180 mins</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>18+</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <!--End Movie Item-->
+
+            <!--Movie Item-->
+            <a href="#" class="movie-item">
+                <img src="./images/movies/Spectre.jpg" alt="">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+                        Spectre
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.4</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>180 mins</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>18+</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <!--End Movie Item-->
+
+            <!--Movie Item-->
+            <a href="#" class="movie-item">
+                <img src="./images/movies/GodFather.jpg" alt="">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+                        The Godfather
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.4</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>180 mins</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>18+</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <!--End Movie Item-->
+
+            <!--Movie Item-->
+            <a href="#" class="movie-item">
+                <img src="./images/movies/TS.jpg" alt="">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+                        Toy Story
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.4</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>180 mins</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>18+</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <!--End Movie Item-->
+        </div>
+    
+    </div>
+</div>
+<!--End Latest movies section-->
+
+
+
+
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <!--Owl Carousel-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--Js Scripts-->
+    <script src="app.js"></script>
+
+</body>
+
+</html>
